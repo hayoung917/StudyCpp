@@ -1,20 +1,16 @@
 #include <stdio.h>
-
-class Human {
-public:
-    char name[12];
-    int age;
-
-    void intro() {
-        printf("이름 %s, 나이 %d\n", name, age);
-    }
-};
+#include "Time.h"
+#include "Date.h"
 
 int main() {
-    Human h = { "이하영",28 };
-    Human H[10] = { {"김가람",25},{"이하영",28},{"여예지"},25 };
-    h.intro();
-    H[0].intro();
+    Time now;
+    Date d;
+    d.SetDate(2020,04,21);
+    d.OutDate();
+    printf("Size of Date = %d\n", sizeof(d));
 
-    return 0;
+    now.SetTime(15, 54, 20);
+    now.outTime();
+
+    printf("Size of Date = %d\n", sizeof(now));
 }
