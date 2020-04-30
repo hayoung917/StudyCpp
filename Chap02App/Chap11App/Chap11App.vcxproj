@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{0B7D71D1-8AD1-4546-BF91-ADAEB8E80102}</ProjectGuid>
-    <RootNamespace>Chap10App</RootNamespace>
+    <ProjectGuid>{8A3F1174-AD78-45A5-BDA5-205FD8E040E1}</ProjectGuid>
+    <RootNamespace>Chap11App</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -138,10 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="cursor.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="MemPtr2.cpp" />
+    <ClCompile Include="Namespace.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
